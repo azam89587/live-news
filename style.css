@@ -1,0 +1,15 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.row{display: grid;
+grid-template-columns: auto auto auto auto ;
+gap: 10px;
+}
+.left{border: solid;}
+.left img{height: auto; max-width: 100%;}
+.content{padding: 7px; text-align: justify; line-height: 27px;}
+
+.menu{padding: 15px 0px; background:black;}
+.menu a,select{padding: 15px 30px; text-decoration: none; margin-left: 40px;color: #fff;}
+#mylanguage{
+    color: #000;
+}
+body{background: white;}

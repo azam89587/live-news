@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident impedit aspernatur, consectetur cum non dolorum animi, magni in suscipit rerum distinctio reprehenderit magnam fugit earum numquam nesciunt rem adipisci alias.</p>
+<button onclick="show('bold')">B</button>
+<button onclick="show('italic')">I</button>
+<button onclick="show('underline')">U</button>
+<script>
+function show(data){
+    let result=document.querySelector("p")
+
+
+if(data==='bold'){
+    result.style.fontWeight=result.style.fontWeight==='bold'?'normal':'bold'
+}
+else if(data==='italic'){
+    result.style.fontStyle=  result.style.fontStyle==='italic'?'normal':'italic'
+}
+else if(data==='underline')
+{
+    result.style.textDecoration=  result.style.textDecoration==='underline'?'none':'underline'  
+}
+
+    /*
+    switch(data){
+        case 'bold':
+        result.style.fontWeight=result.style.fontWeight==='bold'?'normal':'bold'
+        break 
+        case 'italic':
+            result.style.fontStyle=  result.style.fontStyle==='italic'?'normal':'italic'
+            break 
+        case 'underline':
+        result.style.textDecoration=  result.style.textDecoration==='underline'?'none':'underline'
+    break
+    }
+    */ 
+
+}
+
+
+
+
+</script>
+</body>
+</html>
